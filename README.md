@@ -1,2 +1,2 @@
 # resume-latex
-basic resume for SWE roles
+Basic resume for SWE roles
