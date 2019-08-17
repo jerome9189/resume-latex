@@ -1,4 +1,4 @@
-\documentclass[10pt]{article}
+\documentclass[12pt]{article}
 \pagenumbering{gobble}
 \usepackage[utf8]{inputenc}
 \usepackage{xcolor}
@@ -12,72 +12,66 @@
     \Huge{Jerome\textbf{ \color{crimson}{Paliakkara}}}
 \end{center}
 jeromp@uw.edu \hfill \\
-https://github.com/jerome9189 \hfill Seattle, WA 98105\\
+https://github.com/jerome9189 \hfill Seattle, WA\\
 https://linkedin.com/in/jpaliakkara \hfill (206) 446-4012
-\begin{spacing}{0.3}
+\begin{spacing}{0.25}
 \section*{\color{crimson}{Education}}
-\textbf{University of Washington \hfill Seattle, WA $|$ 2017-2021}
+\textbf{University of Washington \hfill Seattle, WA $|$ Graduating in June 2021}
 \begin{itemize}
 \setlength\itemsep{0.1em}
-    \item B.S. in Computer Science with Data Science option
-    \item Cumulative GPA: 3.9 \qquad Annual Dean's List
-    \item Relevant Coursework:
-    \begin{multicols}{2}
-    \begin{itemize}
-        \item Data Structures and Parallelism (in progress)
-        \item Object Oriented Programming
-        \item Linear Algebra
-        \item Foundations of Computing
-        \item Software Design and Implementation
-        \item System and Software Tools
-    \end{itemize}
-    \end{multicols}
+    \item B.S. in Computer Science with Data Science
+    \item \textbf{Cumulative GPA:} 3.92 (Annual Dean's List)
+    \item \textbf{Relevant Coursework:} Data Structures and Parallelism, Object Oriented Programming, Software Design and Implementation
 \end{itemize}
-\section*{\color{crimson}{Relevant Experience}}
+\section*{\color{crimson}{Employment}}
 \begin{itemize}
 \setlength\itemsep{0.1em}
-    \item \work{Stealth Startup}{Data Science Intern}{Seattle, WA}{January 2019-March 2019}
+    \item \work{Docugami}{Software Engineering Intern}{Seattle, WA}{April 2019 - Present}\\
     \begin{itemize}
-        \item Applied machine learning techniques on clients' internal communication datasets to identify avenues for improving workplace productivity
-        \item Worked with nearly 1 million text records from a SQL database. Handled querying and dataframe manipulation with vectorized code
-        \item Bootstrapped labels for unlabeled data using topic models and other heuristic techniques
-        \item Trained a Bidirectional LSTM model for binary classification using heuristically labeled data to achieve an accuracy of 83\% (approximately 12\% higher than the baseline result)
+    \item Optimized the internal developer productivity tool and added a command to automate a tedious developer procedure, speeding up the entire process by 15$\times$ and saving several hours of developer time
+    \item Implemented several fundamental UX features and stateful UI components in the frontend of the core web application 
+    \item Leveraged knowledge of React.js, Redux, TypeScript, HTML, CSS and Git while working on the frontend, and .NET CORE while working on the developer productivity tool
+        %\item Worked on the frontend of the company's core web application, specifically on the ``file manager" (React.js and Typescript)
+        %\item Introduced a \textbf{drag-and-drop upload feature} to the file manager
+        %\begin{itemize}
+        %    \item Uploads multiple files via drag-and-drop
+        %    \item Also uploads folders while maintaining their internal directory structure using recursive traversal of the directory
+        %    \item Overcame the File and Directory Web API's directory reader's 100 item read cap using recursive calling
+        %\end{itemize}
     \end{itemize}
-    \item \work{University of Washington}{Research Assistant}{Seattle, WA}{March 2018-June 2018}
-    \begin{itemize}
-        \item Revamped a web service that visualizes data from solar panels deployed around the University
-        \item Augmented the flexibility of the user interface by increasing the number of options available to users
-        \item Used React.js and software tools to enhance the UI and SQL to query data
+    \item \work{Stealth Startup}{Data Science Intern}{Seattle, WA}{January 2019 - March 2019}\\
+        Applied machine learning techniques on clients' internal communication datasets to identify avenues for improving workplace productivity
+        \begin{itemize}
+            \item Worked with $\sim$1 million text records from a SQL database. Handled dataframe manipulation with vectorized operations in Python
+            \item Bootstrapped labels for unlabeled data using topic models and other heuristic techniques
+            \item Trained a Bidirectional LSTM model for binary classification using heuristically labeled data to achieve $\sim$85\% accuracy (approximately 12\% higher than the baseline accuracy)
+        \end{itemize}
     \end{itemize}
-    \item \work{Elcano Project, UW Bothell}{Research Assistant}{Bothell, WA}{March 2018-June 2018}
-    \begin{itemize}
-        \item Implemented physical braking systems for self-driving trikes
-        \item Prototyped an algorithm for obstacle avoidance that responds to sensor inputs and prevents collision; implemented a simplified version of the algorithm in C++
-    \end{itemize}
-\end{itemize}
 \section*{\color{crimson}{Personal Projects}}
 \begin{itemize}
 \setlength\itemsep{0.1em}
-    \item \textbf{save-the-trees:} Web-app which motivates people to save trees using positive reinforcement of nature-friendly activites. I created this to practice my skills in Node.js, HTML and CSS.\\ Link: \emph{https://still-wave-45228.herokuapp.com/index}
-    \item \textbf{dragon-slayer:} Alexa skill; a simple turn-based game played using the Alexa Voice User Interface. I created this to better understand REST APIs and to learn Node.js, and then published it to the Amazon store at\\ \emph{https://www.amazon.com/Jerome-Paliakkara-DragonSlayer/dp/B078JKNVLD}
-    \item \textbf{scary-dome:} Neural network for predicting benign and malignant(cancerous) breast tumors. I created this to apply my knowledge of neural networks and python.\\
-    Repository: \emph{https://github.com/jerome9189/scary-dome}
+    \item \textbf{UW-Schedule-Exporter: (https://tinyurl.com/uw-schedule-exporter)}\\\
+    Chrome extension allowing students at the University of Washington to easily populate their calendar applications with their class schedules
+    \begin{itemize}
+        \item Added a content script that extracts content from the class registration page
+        \item Developed an algorithm to handle ambiguous/unpredictable time data
+        \item Leveraged an open source library to generate a .ics file and save it from the browser
+        \item Utilized knowledge of React.js and Material-UI framework to build the extension UI
+    \end{itemize}
+    \item \textbf{save-the-trees: (https://still-wave-45228.herokuapp.com/index)}\\ Web-app which motivates people to save trees using positive reinforcement of nature-friendly activites.
+    \item \textbf{dragon-slayer: (https://tinyurl.com/dragon-slayer-alexa)}\\ A simple turn-based game for the Alexa Voice User Interface.
+    %\item \textbf{scary-dome:} Neural network for predicting benign and malignant(cancerous) breast tumors. I created this to apply my knowledge of neural networks and python.\\
+    %Repository: \emph{https://github.com/jerome9189/scary-dome}
 \end{itemize}
 \section*{\color{crimson}{Skills}}
+    
     \begin{itemize}
-    \begin{multicols}{3}
-        \item Java (proficient)
-        \item Python (familiar)
-        \item C++ (familiar)
-        \item JavaScript (familiar)
-        \item MATLAB (familiar)
-        \item Node.js (familiar)
-        \end{multicols}
+        \item \textit{(proficient:)} Java, Python, C\#, JavaScript, HTML/CSS, Git
+        \item \textit{(familiar:)} C, C++, SQL, MATLAB
     \end{itemize}
-\section*{\color{crimson}{Additional Experience/Leadership}}
-\begin{itemize}
-    \item \textbf{Founder, President of the Society for the Deceptive Arts}, a student organization for magicians to meet and practice magic/sleight of hand; conducts regular workshops on magic performance, sleight of hand, and showmanship
-    \item \textbf{VP of Marketing of Ascend UW}, a chapter of a national non-profit organization that promotes diversity and leadership in professional circles; handles mailing lists and social media for the chapter
-\end{itemize}
+%\section*{\color{crimson}{Additional Experience/Leadership}}
+%\begin{itemize}
+%    \item \textbf{Founder, President of the Society for the Deceptive Arts}, a student organization for magicians to meet and practice magic/sleight of hand; conducts regular workshops on magic performance, sleight of hand, and showmanship
+%\end{itemize}
 \end{spacing}
 \end{document}
